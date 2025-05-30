@@ -12,14 +12,14 @@ public class LearnArray {
         Scanner input = new Scanner(System.in);
 
         // Dynamic memory allocation at run time
-        String[] names = new String[4];   // default values will be null
+        String[] names = new String[4];   // default values will be null for array of object
 
         // Taking input in for loop
         for(int i = 0 ; i < names.length ; i++){
             names[i] = input.nextLine();
         }
 
-        //  Looping with for each and Printing
+        // Looping with for each and Printing
         for(String name: names){
             System.out.print(name + " ");
         }
