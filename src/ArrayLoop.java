@@ -4,6 +4,9 @@ public class ArrayLoop {
     public static void main(String[] args) {
 
         // For Loop and For Each;
+        // when to use
+        // For Loop : When You want to modified given array
+        // For Each : When you want to read only array
 
         int[] numbers = { 2 , 4 , 6 , 8 };
 

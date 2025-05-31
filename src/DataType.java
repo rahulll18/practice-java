@@ -20,7 +20,7 @@ public class DataType {
         // numeric data type
         boolean bool = false;   // 1 byte , 8 bits
 
-        char ch = 'A'; // 2 bytes
+        char ch = 'A'; // 2 bytes , 16 bits
 
         // non numeric data type
 
