@@ -36,6 +36,5 @@ public class PlayerClass {
 
         // Display Dhoni Details;
         Dhoni.displayPlayerDetails();
-
     }
 }
