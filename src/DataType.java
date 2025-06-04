@@ -48,7 +48,7 @@ public class DataType {
         String title = "Java Enthusiast";
 
         // CLASS AND OBJECT
-        // I have made on class Car
+        // I have made one class
         Car myCar = new Car("Ferrari" , 2023);
 
         // Interface will learn later at the time OOPS
