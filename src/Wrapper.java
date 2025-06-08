@@ -9,12 +9,12 @@ public class Wrapper {
         // Integer num = new Integer(45);
         Integer num = 45;
 
-        swap(a, b);   // In java for primitive , everything is pass by value , value would not change
+        swapNumber(a, b);   // In java for primitive , everything is pass by value , value would not change
         System.out.println(a);  // 12
         System.out.println(b);  // 24
     }
 
-    static void swap(int a, int b) {
+    public  static void swapNumber(int a, int b) {
         int temp = a;
         a = b;
         b = temp;
