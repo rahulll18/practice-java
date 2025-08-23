@@ -5,10 +5,10 @@ public class staticInit {
     static int b;
 
     // If you want to initialize the static variable in that case you can use static block
-    // this block will only run once
+    // this block will only run once because class loads only one time
     static {
         System.out.println("Static block will loaded when the first time class is loaded");
-        b = a * 3;   // b = 12
+        staticInit.b = a * 3;   // b = 12
     }
 
     public static void main(String[] args) {
